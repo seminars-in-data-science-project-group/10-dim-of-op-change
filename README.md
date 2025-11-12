@@ -21,9 +21,9 @@ This work was completed as part of the **Seminars in Data Science** course.
 ✔ Odds ratios for dimensions in original posts (Figure 1b)  
 ✗ **Figure 1c** – Interaction matrix of post–comment dimensions  
    - The final cell in Notebook 3 requires a file named `matrix_NEW_weighted-comment_discounted`,
-     which is not included in the public repository.  
-     Because this file is missing, Figure 1c cannot be fully reproduced.  
-     All other analyses in Notebook 3 run successfully.
+     which is not included in the public repository. Because this file is missing, Figure 1c cannot be fully reproduced.  
+   - All other analyses in Notebook 3 run successfully.
+     
 ✔ Logistic regression models A–H (Table 2), including pseudo-R² and significance levels
 
 All reproduced results match the original published values.
