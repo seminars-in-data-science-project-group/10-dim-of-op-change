@@ -5,7 +5,6 @@ This repository contains the reproducibility work for the study:
 
 **Monti, Corrado, et al. (2022)**  
 *The language of opinion change on social media under the lens of communicative action*  
-Scientific Reports 12, 18017.
 
 The goal of this project is to reproduce two core empirical results from the original paper:
 
