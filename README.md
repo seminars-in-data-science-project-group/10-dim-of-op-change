@@ -34,8 +34,8 @@ All reproduced results match the original published values.
 ```bash
 /notebooks
 │
-├── 2_logistic-regression.ipynb # Reproduces Table 2
-└── 3_odds-ratios.ipynb # Reproduces Figure 1 (a, b, c)
+├── 2_logistic-regression.ipynb
+└── 3_odds-ratios.ipynb
 ```
 
 ## 📊 Data
