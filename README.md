@@ -12,7 +12,7 @@ The goal of this project is to reproduce two core empirical results from the ori
 - **Figure 1** – Odds ratios comparing social dimensions in posts, comments, and post–comment interactions.
 - **Table 2** – Logistic regression models predicting opinion change using social dimensions, sentiment, and political variables.
 
-This work was completed as part of the **Machine Learning Reproducibility Challenge**.
+This work was completed as part of the **Seminars in Data Science** course.
 
 ---
 
