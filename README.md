@@ -31,10 +31,12 @@ All reproduced results match the original published values.
 ---
 
 ## 📁 Repository Contents
+```bash
 /notebooks
 │
 ├── 2_logistic-regression.ipynb # Reproduces Table 2
 └── 3_odds-ratios.ipynb # Reproduces Figure 1 (a, b, c)
+```
 
 ## 📊 Data
 We use the processed dataset released by the original authors:
