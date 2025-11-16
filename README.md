@@ -37,14 +37,14 @@ All reproduced results match the original published values.
 │
 ├── top-2000-sfw-subreddits-labelled.csv
 ├── vocabulary-classifier.pickle
-└── changemyview-sociopol-processed.pickle.gz
+└── changemyview-sociopol-processed.pickle.gz # Main dataset (MUST BE DOWNLOADED SEPARATELY AND PLACED HERE)
 /notebook
 │
 ├── 1.1_build-sociopol-training-set.py
 ├── 1.2_build-and-test-sociopol-classifier.ipynb
 ├── 1.3_apply-sociopol-classifier-on-cmv.ipynb
-├── 2_logistic-regression.ipynb
-└── 3_odds-ratios.ipynb
+├── 2_logistic-regression.ipynb # Notebook 2 – generates Table 2
+└── 3_odds-ratios.ipynb # Notebook 3 – generates Figure 1
 /paper
 │
 ├── fig
