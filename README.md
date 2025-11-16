@@ -20,6 +20,7 @@ This work was completed as part of the **Seminars in Data Science** course.
 
 - **Original Paper:**  
   [https://www.nature.com/articles/s41598-022-21720-4](https://www.nature.com/articles/s41598-022-21720-4 )
+  
 - [Analysis notebooks](/../../blob/master/notebook/)
 
 - Main data set: [changemyview-sociopol-processed.pickle.gz](https://github.com/corradomonti/10-dim-of-op-change/releases/tag/changemyview-sociopol-processed)  149 MB
