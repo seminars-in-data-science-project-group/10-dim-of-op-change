@@ -19,8 +19,8 @@ This work was completed as part of the **Seminars in Data Science** course.
   [https://github.com/corradomonti/10-dim-of-op-change](https://github.com/corradomonti/10-dim-of-op-change)
 
 - **Original Paper:**  
-  *Monti, C. et al., “Ten Dimensions of Opinion Change” (2020)*  
-  [https://arxiv.org/abs/2001.XXXX](https://arxiv.org/abs/2001.XXXX)
+  *Monti, C. et al., “Ten Dimensions of Opinion Change” (2020)*
+  [https://www.nature.com/articles/s41598-022-21720-4](https://www.nature.com/articles/s41598-022-21720-4 )
 - [Analysis notebooks](/../../blob/master/notebook/)
   1. Building and testing the sociopolitical classifier.
   2. Run logistic regressions from main data set.
