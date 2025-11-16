@@ -15,22 +15,23 @@ This work was completed as part of the **Seminars in Data Science** course.
 
 ---
 
-## ✅ What we reproduced
+## What we reproduced
 
-✔ Odds ratios for each social dimension (Figure 1a)  
-✔ Odds ratios for dimensions in original posts (Figure 1b)  
-✗ **Figure 1c** – Interaction matrix of post–comment dimensions  
+Odds ratios for each social dimension (Figure 1a)  
+Odds ratios for dimensions in original posts (Figure 1b)  
+
+**Figure 1c** – Interaction matrix of post–comment dimensions  
    - The final cell in Notebook 3 requires a file named `matrix_NEW_weighted-comment_discounted`,
      which is not included in the public repository. Because this file is missing, Figure 1c cannot be fully reproduced.  
    - All other analyses in Notebook 3 run successfully.
      
-✔ Logistic regression models A–H (Table 2), including pseudo-R² and significance levels
+Logistic regression models A–H (Table 2), including pseudo-R² and significance levels
 
 All reproduced results match the original published values.
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 ```bash
 /notebooks
 │
@@ -38,7 +39,7 @@ All reproduced results match the original published values.
 └── 3_odds-ratios.ipynb
 ```
 
-## 📊 Data
+## Data
 We use the processed dataset released by the original authors:
 
 - `changemyview-sociopol-processed.pickle.gz`  
@@ -46,27 +47,27 @@ We use the processed dataset released by the original authors:
 
 No raw scraping or preprocessing is required.
 
-## ▶️ How to Run
+## How to Run
 
-1️⃣ **Create a Conda environment**
+**Create a Conda environment**
 ```bash
 conda env create -f environment.yml
 conda activate cmv-repro
 ```
-2️⃣ **Add missing dependencies (if needed)**
+**Add missing dependencies (if needed)**
 ```bash
 pip install statsmodels
 pip install --upgrade numpy
 ```
-3️⃣ Place the dataset in the /data folder
+Place the dataset in the /data folder
 ```bash
 changemyview-sociopol-processed.pickle.gz
 ```
-4️⃣ Run the notebooks in order
+Run the notebooks in order
 - 2_logistic-regression.ipynb
 - 3_odds-ratios.ipynb
 
-## ⚠️ Known Issues
+## Known Issues
 
 - Some notebook commands assume **macOS/Linux**.  
   On **Windows**, directory-creation cells must be edited manually.
@@ -77,7 +78,7 @@ changemyview-sociopol-processed.pickle.gz
 
   This file is **not included** in the repository, so **Figure 1c cannot be fully reproduced**.
 
-## 👥 Reproduction Team (Authors)
+## Reproduction Team (Authors)
 
 - **Piotr** – Introduction, scope of reproducibility  
 - **Vlad** – Reproducibility summary, Table 2, discussion  
