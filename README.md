@@ -33,10 +33,31 @@ All reproduced results match the original published values.
 
 ## Repository Contents
 ```bash
-/notebooks
+/data
 │
+├── top-2000-sfw-subreddits-labelled.csv
+├── vocabulary-classifier.pickle
+└── changemyview-sociopol-processed.pickle.gz
+/notebook
+│
+├── 1.1_build-sociopol-training-set.py
+├── 1.2_build-and-test-sociopol-classifier.ipynb
+├── 1.3_apply-sociopol-classifier-on-cmv.ipynb
 ├── 2_logistic-regression.ipynb
 └── 3_odds-ratios.ipynb
+/paper
+│
+├── fig
+│   ├── comments-social-dim-log-reg.pdf
+│   └── homophily-matrix.pdf
+│
+└── tables
+    ├── comments-social-dim-log-reg.tex
+    ├── homophily-log-reg-length.tex
+    └── homophily-log-reg.tex
+├── README.md
+├── environment.yml
+└── .gitignore
 ```
 
 ## Data
