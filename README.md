@@ -13,6 +13,25 @@ The goal of this project is to reproduce two core empirical results from the ori
 
 This work was completed as part of the **Seminars in Data Science** course.
 
+# Contents
+
+- **Original GitHub Repository:**  
+  [https://github.com/corradomonti/10-dim-of-op-change](https://github.com/corradomonti/10-dim-of-op-change)
+
+- **Original Paper:**  
+  *Monti, C. et al., “Ten Dimensions of Opinion Change” (2020)*  
+  [https://arxiv.org/abs/2001.XXXX](https://arxiv.org/abs/2001.XXXX)
+- [Analysis notebooks](/../../blob/master/notebook/)
+  1. Building and testing the sociopolitical classifier.
+  2. Run logistic regressions from main data set.
+  3. Compute odds ratio from main data set.
+
+
+- Main data set: [changemyview-sociopol-processed.pickle.gz](https://github.com/corradomonti/10-dim-of-op-change/releases/tag/changemyview-sociopol-processed)  149 MB
+
+- [Human-labelled set of sociopolitical subreddits](/../../blob/master/data/top-2000-sfw-subreddits-labelled.csv)
+- [Sociopolitical classifier](/../../blob/master/data/vocabulary-classifier.pickle)
+
 ---
 
 ## What we reproduced
@@ -105,17 +124,3 @@ Run the notebooks in order
 - **Vlad** – Reproducibility summary, Table 2, discussion  
 - **Ayat** – Figure 1 analysis  
 - **Nikolas** – Methodology, environment setup
-
-
-# Contents
-
-- [Analysis notebooks](/../../blob/master/notebook/)
-  1. Building and testing the sociopolitical classifier.
-  2. Run logistic regressions from main data set.
-  3. Compute odds ratio from main data set.
-
-
-- Main data set: [changemyview-sociopol-processed.pickle.gz](https://github.com/corradomonti/10-dim-of-op-change/releases/tag/changemyview-sociopol-processed)  149 MB
-
-- [Human-labelled set of sociopolitical subreddits](/../../blob/master/data/top-2000-sfw-subreddits-labelled.csv)
-- [Sociopolitical classifier](/../../blob/master/data/vocabulary-classifier.pickle)
