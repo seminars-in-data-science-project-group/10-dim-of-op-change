@@ -116,7 +116,7 @@ Run the notebooks in order
 
 ## Reproduction Team (Authors)
 
-- **Piotr** – Introduction, scope of reproducibility  
-- **Vlad** – Reproducibility summary, Table 2, discussion  
-- **Ayat** – Figure 1 analysis  
-- **Nikolas** – Methodology, environment setup
+- **Piotr** – Introduction, Scope of reproducibility  
+- **Vlad** – Reproducibility summary, Results Table 2, Discussion  
+- **Ayat** – Results Figure 1, Discussion
+- **Nikolas** – Methodology
